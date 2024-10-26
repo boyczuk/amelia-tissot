@@ -1,0 +1,33 @@
+body {
+    color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.text-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-section p {
+    line-height: 1.6;
+}
+
+.image-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

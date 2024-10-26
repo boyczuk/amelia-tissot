@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    margin-top: 2%;
+}
+
+nav h2 {
+    margin: 0;
+    padding-left: 5%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    margin: 0;
+    padding-right: 5%;
+}
+
+.nav-link a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link a.active-link {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.nav-link a:hover {
+    color: #ccc;
+}
+
+.ig-icon {
+    font-size: 25px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.ig-icon:hover {
+    color: #ccc;
+}
